@@ -1,0 +1,136 @@
+body {
+    font-family: arial;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main-header {
+    min-height: 323px;
+    padding: 37px 50px 50px 50px;
+    background-color: #445162;
+    color: #ffffff;
+}
+
+.main-header-section {
+    margin: 0;
+    width: 462px;
+    min-height: 223px;
+    display: inline-block;
+}
+
+.main-header-section-header {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 0 0 48px 0;
+}
+
+.main-header-section-list {
+    margin: 0;
+}
+
+.main-header-section-list-item {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    position: relative;
+    list-style-type: none;
+}
+
+.main-header-section-list-item:before {
+    content: "";
+    display: block;
+    height: 19px;
+    width: 25px;
+    background-image: url(img/tools/check_icon.png);
+    position: absolute;
+    top: 7px;
+    left: -36px;
+}
+
+.main-header-image {
+    margin-top: 13px;
+    width: 469px;
+    height: 214px;
+    background-color: #ffffff;
+    float: right;
+}
+
+.main-content {
+    min-height: 600px;
+    padding: 50px;
+}
+
+.main-content-section-about {
+    width: 649px;
+    min-height: 245px;
+    display: inline-block;
+}
+
+.main-content-section-about-header {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin-bottom: 10px;
+}
+
+.main-content-section-about-p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 20px; 
+    margin-bottom: 0px; 
+}
+
+.main-content-section-about-img {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    float: right;
+}
+
+.main-content-section-dignity {
+    margin-top: 99px;
+}
+
+.main-content-section-dignity-header {
+    width: 354px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0 auto;
+}
+
+.main-content-section-dignity-list {
+    margin-top: 29px;
+    margin-bottom: 0px;
+    column-count: 2;
+}
+
+.main-content-section-dignity-list-item {
+    width: 557px;
+    min-height: 63px;
+    list-style-type: none;
+    position: relative;
+}
+
+.main-content-section-dignity-list-item:before {
+    content: "";
+    display: block;
+    height: 32px;
+    width: 32px;
+    background-image: url(img/tools/check_icon_plus.png);
+    position: absolute;
+    top: 2px;
+    left: -41px;
+}
+
+.main-content-section-dignity-list-item:nth-child(n + 4) {
+    margin-left: 13px;
+}
